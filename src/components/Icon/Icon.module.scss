@@ -1,0 +1,15 @@
+.icon{
+    display: flex;
+    width: 2em;
+    height: 2em;
+    flex-shrink: 0;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0.5rem;
+}
+.icon:hover{
+    background-color: #3d3d3d;
+    color: #fff;
+}

@@ -1,0 +1,24 @@
+.home{
+    &--title{
+        color: #fff;
+    }
+    padding: 2rem 2rem 0 2rem;
+    font-size: 2em;
+    &--list_song{
+        // 2 column grid view
+        margin: 3rem auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+    }
+    &--made_for_you{
+        margin: 3rem auto;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 1rem;
+    }
+    &--sub_title{
+        color: #fff;
+        font-size: 0.9em;
+    }
+}

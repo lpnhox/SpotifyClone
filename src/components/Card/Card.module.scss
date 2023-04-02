@@ -1,0 +1,28 @@
+// sportify song card
+.card{
+    background-color: #2b2b2b8d;
+    border-radius: 0.4rem;
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    &__cover{
+        border-top-left-radius: 0.2rem;
+        border-top-right-radius: 0.2rem;
+        object-fit: cover;
+        img{
+            border-radius: 0.4rem;
+        }
+    }
+    &__title{
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin: 0.5rem 0;
+    }
+    &__subtitle{
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: rgb(136, 136, 136);
+    }
+}
