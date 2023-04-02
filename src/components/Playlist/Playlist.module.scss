@@ -1,6 +1,6 @@
 .playlist{
     display: flex;
-    background-color: rgba(37, 37, 37, 0.418);
+    background-color: rgba(111, 111, 111, 0.418);
     border-radius: 0.2rem;
     font-size: 1rem;
     height: 4rem;
@@ -16,6 +16,6 @@
         margin-left: 1em;
     }
     &:hover{
-        background-color: rgba(87, 87, 87, 0.618);
+        background-color: rgba(153, 153, 153, 0.618);
     }
 }

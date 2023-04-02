@@ -41,6 +41,16 @@ import Card from '../../components/Card';
       id: 5,
       name: 'Daily Mix 5',
       thumbnail: 'https://source.unsplash.com/180x180/?study%20session',
+    },
+    {
+      id: 6,
+      name: 'Daily Mix 6',
+      thumbnail: 'https://source.unsplash.com/180x180/?joji',
+    },
+    {
+      id: 7,
+      name: 'Daily Mix 7',
+      thumbnail: 'https://source.unsplash.com/180x180/?lofi',
     }
   ];
 
@@ -56,6 +66,20 @@ const Home = () => {
                 ))}
            </div>
            <span className={`${prefix}--sub_title`}>Made for you</span> 
+          <div className={`${prefix}--made_for_you`}>
+            {fakeSportifyList.map((item, index) => (
+                <Card key={index} cover={item.thumbnail} title={item.name} subtitle="Spotify" />
+            ))}
+          </div> 
+          <span className={`${prefix}--sub_title`}>Tops hit</span> 
+
+          <div className={`${prefix}--made_for_you`}>
+            {fakeSportifyList.map((item, index) => (
+                <Card key={index} cover={item.thumbnail} title={item.name} subtitle="Spotify" />
+            ))}
+          </div> 
+          <span className={`${prefix}--sub_title`}>RnB rap</span> 
+
           <div className={`${prefix}--made_for_you`}>
             {fakeSportifyList.map((item, index) => (
                 <Card key={index} cover={item.thumbnail} title={item.name} subtitle="Spotify" />
